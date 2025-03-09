@@ -1,0 +1,28 @@
+.socialmediaicon {
+    display: flex;
+    position: relative;
+    flex: 1 1 calc(10% - 10px);
+    max-width: calc(10% - 10px);
+    width: 50px;
+    height: 50px;
+}
+.socialmediaicon:hover {
+    cursor: pointer;
+}
+.socialmediaicon path {
+    fill: #ccc;
+    transition: fill 0.3s ease;
+}
+
+.socialmediaicon:hover path {
+    fill: #eee;
+}
+
+@media (max-width: 768px) {
+    .socialmediaicon {
+        display: flex;
+        position: relative;
+        flex: 1 1 calc(18% - 10px);
+        max-width: calc(18% - 10px);
+    }
+}
